@@ -27,20 +27,6 @@ Um utilitário em Python com interface gráfica (Tkinter) para **detectar trecho
 
 ---
 
-## Estrutura do repositório (sugerida)
-
-```
-rom-text-scanner/
-├─ rom_text_scanner_gui.py     # Aplicativo principal (GUI)
-├─ README.md                   # Este arquivo
-├─ sample_tables/              # (opcional) exemplos de .tbl
-│  └─ example.tbl
-├─ .gitignore
-└─ LICENSE
-```
-
----
-
 ## Exemplo de `.tbl` (formato suportado)
 
 O formato esperado é simples: cada linha mapeia um valor hexadecimal de byte para o caractere correspondente, no estilo:
