@@ -200,17 +200,3 @@ git push -u origin main
 Contribuições são bem-vindas: abra issues para bugs/feature requests e envie PRs com testes e descrição clara.
 
 ---
-
-## Licença
-
-Sugestão: **MIT License** — arquivo `LICENSE` simples e permissivo.
-
----
-
-Se quiser, eu posso:
-
-* Gerar o arquivo `LICENSE` (MIT) e `.gitignore` automaticamente;
-* Criar um `run_scan.py` minimal CLI;
-* Gerar o `setup.py`/`pyproject.toml` ou instruções de como empacotar com PyInstaller.
-
-Diga qual destes você prefere que eu adicione agora.
