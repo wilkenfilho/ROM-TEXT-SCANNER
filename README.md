@@ -148,39 +148,6 @@ Arquivo analisado: game.nds
 
 ---
 
-## Como publicar no GitHub (passo a passo rápido)
-
-1. Crie o repositório na sua conta (GitHub UI) com o nome `rom-text-scanner`;
-2. No seu projeto local, inicialize git e faça commit:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: ROM Text Scanner GUI"
-```
-
-3. Conecte ao remoto criado no GitHub e envie:
-
-```bash
-git remote add origin https://github.com/<seu-usuario>/rom-text-scanner.git
-git branch -M main
-git push -u origin main
-```
-
-4. Adicione `README.md` (este arquivo), `LICENSE` (sugiro MIT) e `.gitignore` (ex.: `venv/`, `__pycache__/`).
-
----
-
-## Sugestões de próximos passos / melhorias
-
-* Adicionar um modo CLI robusto (argumentos, filtro por tamanho, regex customizável);
-* Suporte a multi-threading para acelerar varreduras de pastas grandes;
-* Exportar resultados num CSV resumido com: caminho, número de trechos, primeiro trecho, caminho do dump;
-* Interface para visualizar o `_textdump.txt` dentro do app (em vez de abrir no Explorer);
-* Empacotar com PyInstaller para distribuir executáveis Windows/macOS.
-
----
-
 ## Contribuição
 
 Contribuições são bem-vindas: abra issues para bugs/feature requests e envie PRs com testes e descrição clara.
